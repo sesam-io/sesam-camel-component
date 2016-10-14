@@ -11,7 +11,7 @@ import org.apache.camel.spi.UriParam;
 import org.apache.camel.spi.UriPath;
 
 /**
- * Represents a Sesam endpoint in the cloud.
+ * Represents a Sesam endpoint in the cloud. Can be used as producer and consumer. Consumer is a scheduled polling consumer.
  */
 @UriEndpoint(scheme = "sesam", title = "Sesam", syntax="sesam:pipe", consumerClass = SesamConsumer.class, label = "Sesam")
 public class SesamCloudEndpoint extends SesamEndpoint {

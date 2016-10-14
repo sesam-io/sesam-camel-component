@@ -18,7 +18,7 @@ public class SesamLocalComponentTest extends CamelTestSupport {
     protected RouteBuilder createRouteBuilder() throws Exception {
         return new RouteBuilder() {
             public void configure() {
-                from("sesam-local://out")
+                from("sesam-local://out?ignoreSinceFile=true")
                   .to("sesam-local://in")
                   .to("mock:result");
             }

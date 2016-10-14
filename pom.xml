@@ -6,7 +6,7 @@
   <groupId>io.sesam.camel</groupId>
   <artifactId>camel-sesam</artifactId>
   <packaging>jar</packaging>
-  <version>0.1</version>
+  <version>0.1-SNAPSHOT</version>
 
   <name>Camel Sesam Component</name>
   <url>https://sesam.io</url>

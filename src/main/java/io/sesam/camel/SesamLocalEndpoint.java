@@ -5,7 +5,7 @@ import org.apache.camel.spi.UriParam;
 import org.apache.http.client.utils.URIBuilder;
 
 /**
- * Represents a Sesam endpoint on premise.
+ * Represents a Sesam endpoint on premise. Can be used as producer and consumer. Consumer is a scheduled polling consumer.
  */
 @UriEndpoint(scheme = "sesam-local", title = "Sesam", syntax="sesam-local:pipe", consumerClass = SesamConsumer.class, label = "Sesam")
 public class SesamLocalEndpoint extends SesamEndpoint {
