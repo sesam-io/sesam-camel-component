@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "foo-in",
+    "source": {
+      "type": "http_endpoint"
+    },
+    "type": "pipe"
+  },
+  {
+    "_id": "in",
+    "source": {
+      "type": "http_endpoint"
+    },
+    "type": "pipe"
+  },
+  {
+    "_id": "out",
+    "sink": {
+      "type": "http_endpoint"
+    },
+    "source": {
+      "dataset": "foo-in",
+      "type": "dataset"
+    },
+    "type": "pipe"
+  }
+]

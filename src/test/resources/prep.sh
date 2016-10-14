@@ -1,0 +1,2 @@
+curl -XPUT localhost:9042/api/config -d @sesam.conf.json -H "Content-Type: application/json"
+curl -XPOST localhost:9042/api/receivers/foo-in/entities -d @sample.json -H "Content-Type: application/json"
