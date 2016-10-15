@@ -7,6 +7,8 @@ Only local (on premise) installations are currently supported. Cloud support is 
 
 Security tokens (JWT) are not yet implemented.
 
+Since values are persisted in local files.
+
 The url pattern (and defaults) for the local consumer endpoint is:
 ::
 
